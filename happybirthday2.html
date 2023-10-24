@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+	
+	
+    <img src="https://images.unsplash.com/photo-1559620192-032c4bc4674e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=429&q=80   width=400px  height=400px">
+<script type="text/javascript">
+
+$(document).ready(function(){
+   $("#hide").click(function(){
+      $("img").hide(1000);
+});
+});
+$(document).ready(function(){
+   $("#show").click(function(){
+      $("img").show(1000);
+	  });
+	  });
+</script>
+<style>
+body{
+background-color:pink;
+}
+
+</style>
+  </head>
+  <body>
+   <button id ="hide">Hide!</button>
+<button id ="show">Show!</button>
+<strong><p> Click on the button </p></strong>
+    
+	
+
+</script>
+    <script>
+	function setup() {
+  createCanvas(1900, 400);
+  x=10;
+
+}
+
+function draw() {
+  background(50,100,120);
+  textSize(85);
+  text('Happy Birthday!',x+20,180);
+  fill(50,20,20);
+  x+=0.5;
+          
+}
+</script>
+ 
+
+</body>
+</html>
